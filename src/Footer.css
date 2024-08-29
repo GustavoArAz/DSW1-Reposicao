@@ -1,0 +1,7 @@
+.footer-link {
+    color: #f8f9fa; /* Set your desired color */
+  }
+  
+  .footer-link:hover {
+    color: #c0c0c0; /* Set a hover color if needed */
+  }

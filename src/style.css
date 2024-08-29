@@ -1,0 +1,176 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .initial {
+    padding-top: 0.25%;
+  }
+
+  .empty {
+    padding: 15%;
+  }
+
+  .large-input {
+    width: 100%;
+    height: 40px; /* Adjust the height as needed */
+  }
+
+  .massive-font {
+    font-size: 200px;
+    text-align: center;
+  }
+
+  .dashboard-font {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .dashboard-outer-border {
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .dashboard-border {
+    border: 1px solid gray;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .bordered-form {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+  }
+
+  .form-label {
+    display: block; /* Forces label to take up the full width of its parent */
+  }
+
+  .centered-header {
+    text-align: center;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 54.8vh;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+
+  .table-border {
+    border-radius: 20px;
+  }
+  
+  /* ------------------------------------------------ */
+  /* ------------------------------------------------ */
+  /* -------------------- TABLES -------------------- */
+  /* ------------------------------------------------ */
+  /* ------------------------------------------------ */
+  
+  table.table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    width: 90%;
+  }
+  
+  table.table1 a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  table.table1 td, table.table1 th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  table.table2 {
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    min-width: 180px;
+  }
+  
+  table.table2 td, table.table2 th {
+    background-color: royalblue;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+  }
+  
+  table.table2 td, table.table2 th a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  table.table2 td, table.table2 th a:hover {
+    background: #375abe;
+    color: black;
+  }
+  
+  /* ----------------------------------------------- */
+  /* ----------------------------------------------- */
+  /* -------------------- FORMS -------------------- */
+  /* ----------------------------------------------- */
+  /* ----------------------------------------------- */
+  
+  input[type=text], input[type=password], input[type=email] {
+    width: 30%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: royalblue;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  form.post {
+      padding-top: 0.5%;
+      background-color: lightgray;
+  }
+  
+  form.post input[type="text"].players {
+      font-size: 15pt;
+      height: 40px;
+      width: 50px;
+  }
+  
+  form.post input[type="text"].titulo {
+      font-size: 20pt;
+      height: 40px;
+      width: 250px;
+  }
+  
+  form.post textarea {
+      font-size: 15pt;
+  }
+  
+  form.auth {
+      padding-top: 80px;
+      text-align: center;
+  }
